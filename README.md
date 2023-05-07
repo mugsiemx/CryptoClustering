@@ -1,7 +1,7 @@
 # CryptoClustering
 Module 19 Challenge - DUE 11 May 2023
 
-![pexels-alesia-kozik-6780789]()
+![pexels-alesia-kozik-6780789](https://github.com/mugsiemx/CryptoClustering/blob/main/Images/pexels-alesia-kozik-6780789.jpg)
 
 In this modern world of computers and new payment methods, we are here to analyze Cryptocurrency. The first cryptocurrency was Bitcoin, founded in 2009. Although there are thousands of cryptocurrencies, our dataset contains 41 entries which we are analyzing utilizing KMeans and Clustering of the original data, scaled and PCA calculations.
 
