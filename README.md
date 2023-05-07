@@ -1,9 +1,11 @@
 # CryptoClustering
 Module 19 Challenge - DUE 11 May 2023
 
+![pexels-alesia-kozik-6780789]()
+
 In this modern world of computers and new payment methods, we are here to analyze Cryptocurrency. The first cryptocurrency was Bitcoin, founded in 2009. Although there are thousands of cryptocurrencies, our dataset contains 41 entries which we are analyzing utilizing KMeans and Clustering of the original data, scaled and PCA calculations.
 
-Will a significant difference show if we limit the number of components used to calculate variances in the data from the mean.
+Will a significant difference show if we limit the number of components used to calculate variances in the data from the mean?
 
 The process:
 - First, we read in the crypto_market_data comma separated value file into a Pandas DataFrame utilizing jupyter notebooks. We generate summary statistics and plot the data to see the "features" we are working with. We do this with hvplot to show proficiency in a method we only touched on previously.
@@ -15,14 +17,13 @@ The process:
 
 Charts of calculations and data:
 
-![Inertia Raw Data]()
+![Inertia Raw Data](https://github.com/mugsiemx/CryptoClustering/blob/main/Images/inertia%20raw%20data.png)
 
-![Separate Elbow Curve Comparisons]()
+![Separate Elbow Curve Comparisons](https://github.com/mugsiemx/CryptoClustering/blob/main/Images/Elbow%20Curves%20-%20Separate.png)
 
-![Combined Elbow Curve Comparisons]()
+![Combined Elbow Curve Comparisons](https://github.com/mugsiemx/CryptoClustering/blob/main/Images/Elbow%20Curves%20-%20Combined.png)
 
-![Crypto Currency Predictions]()
-
+![Crypto Currency Predictions](https://github.com/mugsiemx/CryptoClustering/blob/main/Images/Crypto%20Currency%20Predictions.png)
 
 
 References:
@@ -34,3 +35,4 @@ Research of code and 'how to' ideas are located in the following webpage links b
 - 3D Scatter Plot in Python - Matplotlib by Regenerative Today  #https://www.youtube.com/watch?v=PnwpoCDA5IM
 -Stack Overflow https://stackoverflow.com/questions/67392824/plot-two-lines-in-one-graph-with-each-line-own-y-values
 - definitions https://www.kaspersky.com/resource-center/definitions/what-is-cryptocurrency , https://www.forbes.com/advisor/investing/cryptocurrency/what-is-cryptocurrency/ , https://www.linkedin.com/pulse/what-cryptocurrency-how-does-works-guide-beginners-2023-edu-facts/
+- Crypto Currency Photo credit to: pexels-alesia-kozik-6780789
